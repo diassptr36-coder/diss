@@ -1,0 +1,37 @@
+Mulai
+    Deklarasi n, p sebagai integer
+    Deklarasi array nama, nilai, grade
+
+    Tampilkan "Jumlah mahasiswa"
+    Input n
+
+    Untuk i dari 0 sampai n-1 lakukan
+        Tampilkan "Nama"
+        Input nama[i]
+
+        Tampilkan "Nilai"
+        Input nilai[i]
+
+        Jika nilai[i] >= 85 maka
+            grade[i] ← 'A'
+        Jika tidak dan nilai[i] >= 75 maka
+            grade[i] ← 'B'
+        Jika tidak dan nilai[i] >= 65 maka
+            grade[i] ← 'C'
+        Jika tidak dan nilai[i] >= 50 maka
+            grade[i] ← 'D'
+        Jika tidak maka
+            grade[i] ← 'E'
+    Selesai Untuk
+
+    Tampilkan "Pilih nomor mahasiswa"
+    Input p
+
+    Jika p >= 1 dan p <= n maka
+        Tampilkan nama[p-1]
+        Tampilkan nilai[p-1]
+        Tampilkan grade[p-1]
+    Jika tidak maka
+        Tampilkan "Pilihan tidak valid"
+    Akhir Jika
+Selesai
